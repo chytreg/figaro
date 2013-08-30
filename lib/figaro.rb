@@ -1,6 +1,6 @@
 require "shellwords"
 require "figaro/env"
-require "figaro/railtie"
+require "figaro/railtie" if defined?(Rails)
 require "figaro/tasks"
 
 module Figaro
